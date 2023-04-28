@@ -1,0 +1,42 @@
+@import './global.css';
+
+* {
+  background-color: #282c34;
+  color: white;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  margin: 0 5rem;
+}
+
+.App-main {
+  height: 90vh;
+}
+
+.Question {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5rem;
+}
+
+.QuoteID  {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Question > p {
+  font-size: calc(2rem + 2vmin);
+  text-align: left;
+  min-height: 20vh;
+  width: 60vw;
+}
